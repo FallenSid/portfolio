@@ -1,0 +1,55 @@
+.borderline{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+#bg-img{
+    position:fixed;
+    z-index:-20;
+    height: 100vh;
+    width: 99vw;
+}
+.container{
+    margin: auto;
+    min-height: 80vh;
+    width: 100%;
+    position:relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.profile-pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.profile-pic img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+    transition: all 0.3s ease-in-out;
+}
+.profile-pic img:hover{
+    box-shadow: 0 0 20px rgb(0, 119, 255);
+}
+
+.intro{
+    font-size: 1.2em;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-shadow: 4px 3px 25px black;
+}
+.intro span{
+    color: yellow;
+}
+
+.footer{
+    height: 40vh;
+    background-color:navy;
+    width: 100%;
+    box-shadow: 0  -10px 20px   rgba(0, 0, 0, 0.407);
+}

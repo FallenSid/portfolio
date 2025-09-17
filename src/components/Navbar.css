@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 3.5rem;
+    min-width: 441px;
+    z-index: 20;
+}
+.logo{
+    background-color: black;
+    width: 20vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 5px;
+}
+.logo svg{
+    margin: 10px;
+    min-width: 20px;
+}
+nav{
+    width: 70vw;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav ul li a{
+    color: white;
+    text-decoration: underline transparent;
+    transition: all 0.3s ease-in-out;
+    text-underline-offset: 4px;
+}
+nav ul li a:hover{
+    text-decoration-color: white;
+    text-underline-offset: 2px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 3%;
+}
+.resume{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+.navbar .resume button{
+    right: 10px;
+    top: 8px;
+    position: fixed;
+    min-height: 40px;
+    min-width: 141px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding:10px ;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}

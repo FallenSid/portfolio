@@ -23,7 +23,7 @@ function App() {
       <div className="footer">
         <div className="card">
           <h3>Vanilla Web Dev</h3>
-          <p>strong foundation in vanilla web development i.e. HTML , CSS , JS.</p>
+          <p>Strong foundation in vanilla web development i.e. HTML , CSS , JS.</p>
           <p></p>
           </div>
         <div className="card">
@@ -33,7 +33,7 @@ function App() {
           </p>
           <br />
           <p>
-            Buildt a  Node.js bridge between Flask AI model.
+            Built a  Node.js bridge between Flask AI model.
           </p>
           <br />
           <p>Handling API calls and JSON efficienty</p>

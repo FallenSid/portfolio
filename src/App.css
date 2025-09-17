@@ -58,7 +58,7 @@
 .footer{
     display: flex;
     min-height: 300px;
-    height: 40vh;
+    height: 30vh;
     background-color:rgb(0, 0, 167);
     width: 100%;
     box-shadow: 0  -10px 20px   rgba(0, 0, 0, 0.407);
@@ -66,14 +66,15 @@
 
 .card{
     color: white;
-    height: 40vh;
-    min-height:30px;
-    width:254px;
+    height: 30vh;
+    min-height:300px;
+    width:20%;
     border-right: 1px solid white;
 }
 .card h3{
     padding-top: 10px;
     text-align: center;
+    text-decoration: underline;
 }
 .card p{
     width: 80%;

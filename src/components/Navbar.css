@@ -62,5 +62,8 @@ nav ul li{
     padding:10px ;
     color: white;
     font-weight: bold;
-    border: 1px solid white;
+    border: 2px solid white;
+}
+.navbar .resume button:hover{
+    background-color:rgb(218, 0, 0);
 }

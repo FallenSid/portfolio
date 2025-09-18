@@ -1,17 +1,47 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useRef } from "react";
 function App() {
+
+  const container = useRef();
+  useGSAP(()=>{
+    gsap.from('.profile-pic',{
+      x:100,
+      opacity:0,
+      duration:1,
+      delay:0.5
+    })}
+  ); 
+
+  useGSAP(()=>{
+    gsap.from('.text-intro',{
+      y:100,
+      opacity:0,
+      duration:1.5,
+      delay:1,
+      stagger:0.25
+    })
+  })
+
+  useGSAP(()=>{
+    gsap.from('.container',{
+      height:'100vh',
+      delay:2.5,
+    })
+  })
+
   return (
     <div className="borderline">
     <img id="bg-img" src="assets/img/background.jpg" alt="Background-img" />
       <Navbar />
       <div className="container">
         <div className="intro">
-          <h2>Hey There,</h2>
-          <h1>I'm FallenSid (Gaurav Gautam)</h1>
-          <h1>An <span className="italic">Ethusiastic</span></h1>
-          <h1> <span>Web Developer </span>
+          <h2 className="text-intro">Hey There,</h2>
+          <h1 className="text-intro">I'm FallenSid (Gaurav Gautam)</h1>
+          <h1 className="text-intro">An <span className="italic">Ethusiastic</span></h1>
+          <h1 className="text-intro"> <span>Web Developer </span>
           &
           <span> Web Designer</span>
           </h1>

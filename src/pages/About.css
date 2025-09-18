@@ -1,0 +1,44 @@
+ 
+body{
+    background-color: black;
+    color: white;
+}
+.abt-bg{
+    opacity: 0.5;
+}
+.aside{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    border-right: 2px solid white;
+    min-width: 25%;
+    height: 100vh;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.aside h1{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+.details{
+    margin-left: 100px;
+    position: relative;
+    top: 50px;
+    left: 10%;
+    min-width: 60;
+    max-width: 70%;
+    height: 120vh;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.details h1{
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}

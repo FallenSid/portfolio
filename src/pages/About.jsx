@@ -12,6 +12,7 @@ const About = () => {
           <ul>
             <li>Introductionn</li>
             <li>How I Started Coding </li>
+            <li>Skills In Action</li>
           </ul>
         </div>
         <div className="details">
@@ -30,6 +31,10 @@ const About = () => {
           <p>I built the frontend and Node.js integration, while he worked on the Flask API. That experience not only strengthen my skills but also taught me the power of teamwork.</p>
           <br />
           <hr />
+          <h1>SKILLS IN ACTION</h1>
+          <br />
+          <p>I am Experienced in creating static and Dynamic user interface , Ensuring website look and perform great</p>
+          <p>I've </p>
         </div>
       </div>
     </div>

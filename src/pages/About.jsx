@@ -13,6 +13,8 @@ const About = () => {
             <li>Introductionn</li>
             <li>How I Started Coding </li>
             <li>Skills In Action</li>
+            <li>Currently Learning</li>
+            <li>Call in Action</li>
           </ul>
         </div>
         <div className="details">
@@ -34,7 +36,22 @@ const About = () => {
           <h1>SKILLS IN ACTION</h1>
           <br />
           <p>I am Experienced in creating static and Dynamic user interface , Ensuring website look and perform great</p>
-          <p>I've </p>
+          <p>I've worked on projects like a dedicated website for a web novel (The-Ashvathha) and Ai-powered chatbot Interface , where I designed intuitive  UIs and integrated backend services </p>
+          <p>Currently I'm exploring animation libraries like GSAP and Framer Motion to bring my projects to life</p>
+          <br />
+          <hr />
+          <h1>CURRENTLY LEARNING</h1>
+          <br />
+          <p>Right now I'm expanding my skills with Tailwind CSS, GSAP, and Framer Motion and Some libraries i could use </p>
+          <br />
+          <hr />
+          <h1>CALL IN ACTION</h1>
+          <br />
+          <p>I'm always open to collaborating on exciting projects or freelance opportunities</p>
+          <p>Feel free to check out my work on the project page or get in touch through the Contact section </p>
+          <br />
+          <hr />
+
         </div>
       </div>
     </div>

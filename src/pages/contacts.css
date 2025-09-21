@@ -1,0 +1,135 @@
+.contact-background{
+    background: white;
+    height: 100vh;
+}
+.content #contact-slide{
+    height: 100vh;
+    position: relative;
+    left: -110px;
+
+}
+.content{
+    display: flex;
+    position: fixed;
+    z-index: 15;
+
+}
+
+#contact-text{
+    right: 0px;
+    top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    color:black;
+    position: fixed;
+    z-index:100;
+    padding: 10px;
+    padding-right: 50px;
+    text-align: end;
+}
+
+#contact-text span{
+    color:blue
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    background-image:linear-gradient(to left, rgb(0 42 112) 60%, #00368d);
+    box-shadow: 0 0 30px 5px #022b6f;
+    border: 2px solid #022b6f;
+    z-index: 12;
+}
+
+.slide .intro-text{
+    position: relative;
+    top: 60px;
+    left: 20px;
+    /* position: absolute; */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    line-height: 15px;
+}
+
+.slide .contact-form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    position: relative;
+    top:80px;
+    z-index: 15;
+    width: 70%;
+    left: 100px;
+}
+
+.contact-form input , textarea{
+    display: block;
+    width: 80%;
+    resize: none;
+    height: 30px;
+}
+
+.contact-form textarea{
+    height: 100px;
+}
+
+.contact-form #send-btn{
+    width: 100px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#send-btn:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.success{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+
+    border: 2px solid black;
+    background-color: white;
+    color:black;
+    width: 500px;
+    text-align: center;
+    height: 300px;
+    z-index: 300;
+    position: fixed;
+
+    left:calc(50% - 250px);
+    top:calc(50% - 150px);
+
+    box-shadow: 0 0 1000px black;
+
+    display: none;
+}
+
+.success h1{
+    color: chartreuse;
+}
+
+.close-btn{
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: gray;
+}
+
+.close-btn:hover{
+    color: red;
+    cursor: pointer;
+}

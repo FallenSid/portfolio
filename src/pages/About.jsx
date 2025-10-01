@@ -27,7 +27,7 @@ const About = () => {
           <hr />
           <h1>HOW I STARTED CODING?</h1>
           <br />
-          <p>My coding journey began in 12th grade , where I studied Computer Science with Python and SQL and discovered my passion for programming.</p>
+          <p>My coding journey began in 12th grade , where I studied Computer Science with Python and SQL and discovered my passion for programming along with my friend Farman, he helped me to sharpen my skills in python .</p>
           <p>After schooling my friend Rachit introduced me to web development with HTML , CSS and JavaScript.</p>
           <p>Together, we went on to co-found Team Creatrix, When we collaborated on project Meddibuddy an AI Powered Chatbot -</p>
           <p>I built the frontend and Node.js integration, while he worked on the Flask API. That experience not only strengthen my skills but also taught me the power of teamwork.</p>

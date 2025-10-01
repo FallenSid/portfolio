@@ -26,7 +26,7 @@ const project = () => {
 
             <li>
 
-            <a href="https://github.com/FallenSid/Ashvatha-NodeJs-">Link to Repository</a>
+            <a href="https://github.com/FallenSid/Ashvatha-NodeJs-" target="_placeholder">Link to Repository</a>
             </li>
             </ul>
             </div>
@@ -123,10 +123,11 @@ const project = () => {
               <img src="assets/ashvatha-react/homepage.png" alt="" />
             <h2>LINKS TO CODE:  </h2>
             <ul>
-
             <li>
-
             <a href="https://github.com/FallenSid/The-Ashvathha" target="_placeholder">Link to Repository</a>
+            </li>
+            <li>
+              <a href="https://the-ashvathha.vercel.app/" target="_placeholder">Link to Webpage</a>
             </li>
             </ul>
             </div>

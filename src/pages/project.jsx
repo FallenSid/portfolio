@@ -20,11 +20,7 @@ const project = () => {
           <div className="card-left">
             <div className="left-text">
             <h2>THE ASHVATHHA(NodeJs)</h2>
-              <img src="assets/ashvatha-nodeJs/" alt="" />
-              <img src="assets/ashvatha-nodeJs/" alt="" />
-              <img src="assets/ashvatha-nodeJs/" alt="" />
-              <img src="assets/ashvatha-nodeJs/" alt="" />
-              <img src="assets/ashvatha-nodeJs/" alt="" />
+            <img src="assets/ashvatha-nodeJs/Homepage.png" alt="" />
             <h2>LINKS TO CODE:  </h2>
             <ul>
 
@@ -74,11 +70,7 @@ const project = () => {
           <div className="card-left">
             <div className="left-text">
             <h2>MEDI-BUDDY CHATBOT</h2>
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
+              <img id="medi-buddy-img" src="assets/medi-buddy/homepage.png" alt="" />
             <h2>LINKS TO CODE:  </h2>
             <ul>
             <li>
@@ -128,11 +120,7 @@ const project = () => {
           <div className="card-left">
             <div className="left-text">
             <h2>THE ASHVATHHA(React)</h2>
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
+              <img src="assets/ashvatha-react/homepage.png" alt="" />
             <h2>LINKS TO CODE:  </h2>
             <ul>
 
@@ -147,7 +135,7 @@ const project = () => {
             <div className="right-text">
               <h2>DESCRIPTION</h2>
               <p>
-                Recreated The-Ashvatha webpage Using ReactJs for overall Better performance.
+                Recreated The-Ashvatha webpage Using ReactJs for overall Better performance and tried to make it look more modern.
                 <br />
                 While practicing to create React app.
               </p>
@@ -169,7 +157,7 @@ const project = () => {
 
 
 
-      <div className="react-ashvatha">
+      <div className="portfolio-react">
         <h1 className="center-text">
           PortFolio (<span>React</span>)
         </h1>
@@ -177,11 +165,7 @@ const project = () => {
           <div className="card-left">
             <div className="left-text">
             <h2>PORTFOLIO (React)</h2>
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
-              <img src="assets/ashvatha-react/" alt="" />
+              <img src="assets/portfolio/homepage.png" alt="" />
             <h2>LINKS TO CODE:  </h2>
             <ul>
 

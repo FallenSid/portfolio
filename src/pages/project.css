@@ -22,7 +22,7 @@
     position: relative;
     margin-top: 60px;
     color:black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     line-height: 0px;
     font-weight: bolder;
 }
@@ -70,3 +70,13 @@
     font-weight: bolder;
     font-size: 1.2rem;
 }
+
+.detail-card .card-left .left-text img{
+    width:90%;
+    cursor: pointer;
+}
+
+#medi-buddy-img{
+    height: 300px;
+    width: auto;
+}   

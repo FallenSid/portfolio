@@ -94,7 +94,7 @@ const Contacts = () => {
 
       <div id="contact-text" className="contact-text">
         <p>
-          NOTHING IS <span>PERMANANTS</span>
+          NOTHING IS <span>PERMANENT</span>
         </p>
         <p>SO LET'S MAKE IT</p>
         <p>

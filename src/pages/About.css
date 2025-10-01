@@ -1,10 +1,6 @@
  
 body{
-    background-color: black;
     color: white;
-}
-.abt-bg{
-    opacity: 0.5;
 }
 .aside{
     position: fixed;
